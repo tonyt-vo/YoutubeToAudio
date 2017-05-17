@@ -12,12 +12,12 @@ class YouTubeToAudio(Tk):
         self.geometry("600x90")
         self.minsize(600,90)
         self.maxsize(600,90)
-
+        self.title("YouTube to Audio ")
         # Default Options for downloading.
         self.options = {
-            'format': 'bestaudio/best',
+            'format': 'm4a/mp3/bestaudio',
             'extractaudio': True,
-            'audioformat': 'mp3',
+            'audioformat': 'best',
         }
         # Music Path Label, Entry and Label to store location on disk.
         self.label = Label(self, text="Music Path").grid(row=0, column=0) # Label for music path
