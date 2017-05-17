@@ -6,7 +6,7 @@ Date of initial commit: May 16th, 2017
 The purpose of this project was to simply download YouTube videos as music files. It has a basic GUI.
 
 # Languages Used
-1. Python 3.6
+1. Python 3.5
 
 ## Libraries and Module's Used
 1. [youtube_dl](https://github.com/rg3/youtube-dl)
