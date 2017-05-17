@@ -3,7 +3,7 @@ import youtube_dl, os
 from tkinter import *
 from tkinter import filedialog, messagebox
 
-class YouTubeMP3(Tk):
+class YouTubeToAudio(Tk):
 
     def __init__(self):
         Tk.__init__(self)
@@ -80,5 +80,5 @@ class YouTubeMP3(Tk):
 
 # Run the application.
 if __name__ == "__main__":
-    app = YouTubeMP3()
+    app = YouTubeToAudio()
     app.mainloop()
