@@ -65,7 +65,7 @@ class YouTubeMP3(Tk):
     # Download Song given a url, playlist option and a path to music directory.
     def download_song(self,url, playlist, music_path):
         self.options['noplaylist'] = not playlist
-        self.options['outtmpl'] = music_path + '\%(title)s' + ".mp3"
+        self.options['outtmpl'] = music_path + '\%(title)s' + ".%(ext)s"
         if playlist:
             messagebox.showinfo("Playlist Option", "Depending on the size of the playlist, "
                                                    "this may take a moment. Please wait and do not exit.")
